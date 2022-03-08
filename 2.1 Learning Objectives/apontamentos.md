@@ -353,9 +353,11 @@ Os gerentes e supervisores do contact center podem gerenciar um contact center c
 
 ## 2.12 Solution Reporting Application
 
+![image](https://user-images.githubusercontent.com/52088444/157315812-68532a27-199d-4635-b532-e78f2baeb0c8.png)
+
 Os seguintes aplicativos de relatórios de soluções são oferecidos pela Genesys:
 
-Pulse–Um aplicativo gráfico de usuário on-line independente baseado em widget, que você pode acessar a partir do GAX como um link. O Pulse fornece estatísticas de contact center em tempo real.
+Pulse– Um aplicativo gráfico de usuário on-line independente baseado em widget, que você pode acessar a partir do GAX como um link. O Pulse fornece estatísticas de contact center em tempo real.
 
 ## 2.13 Review: Framework, Routing, and Reporting(Framework, Routing, and Reporting)
 
@@ -368,6 +370,8 @@ Pulse–Um aplicativo gráfico de usuário on-line independente baseado em widge
 - Todos os tipos de interação com o cliente são roteados universalmente.
 
 - Os relatórios em tempo real são abrangentes e personalizáveis.
+
+![image](https://user-images.githubusercontent.com/52088444/157316035-3e764728-bdab-4ebb-8326-f4a8c631c635.png)
 
 A Plataforma Genesys é o núcleo do conjunto de soluções Genesys(is the core of the Genesys solution) - um ambiente único poderoso e comprovado para projetar, implantar e gerenciar todas as interações com clientes e processos de itens de trabalho dentro do contact center e em toda a empresa para que a operação de atendimento ao cliente esteja alinhada e integrado com os processos gerais de negócios.
 
