@@ -22,10 +22,10 @@ pela Plataforma Genesys.
 - Configuration Layer—distributes configuration information to the entire platform(distribui informações de configuração para toda a plataforma.)
 
 - Management Layer—manages logging of all server processes and allows management and monitoring of solutions(gerencia o registro de todos os processos do servidor e permite
--  o gerenciamento e o monitoramento de soluções.).
+o gerenciamento e o monitoramento de soluções.).
 
 - User Interaction Layer—provides a comprehensive user interface to configure, monitor, and control the management environment(fornece uma interface de usuário abrangente para 
-- configurar, monitorar e controlar o ambiente de gerenciamento.).
+configurar, monitorar e controlar o ambiente de gerenciamento.).
 
 - Media Layer—provides software translation between the platform and the various external network interfaces, such as telephone switches, IVRs, and corporate email servers
 (fornece tradução de software entre a plataforma e as várias interfaces de rede externas, como centrais telefônicas, IVRs e servidores de e-mail corporativos.).
