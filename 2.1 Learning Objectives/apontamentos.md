@@ -418,3 +418,20 @@ True
 False(CORRETA)
 
 
+04/05
+Match up each item to the corresponding statement.
+
+![image](https://user-images.githubusercontent.com/52088444/157289653-39f25815-25bc-478c-92f2-47be1573d194.png)
+
+Question
+05/05
+Which one of the following layers are in the Framework ?
+
+
+Media Layer(VERDADEIRO)
+
+Configuration Layer(VERDADEIRO)
+
+Services Layer(VERDADEIRO)
+
+User Interface Layer(FALSO)
