@@ -151,7 +151,12 @@ True    (V)
 
 False   (F)
 
-Question
-04/05
-Genesys Platform - Match up each Genesys term to its description.
+![image](https://user-images.githubusercontent.com/52088444/157243795-59e99f93-743c-464d-83c2-ed59bdfba752.png)
 
+Question
+05/05
+The Genesys Platform is only used for inbound-voice interactions.
+
+True
+
+False (V)
