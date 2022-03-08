@@ -388,3 +388,33 @@ Agora que você concluiu este capítulo, você deve ser capaz de fazer o seguint
 
 4 -Descreva o Genesys Reporting.
 
+## 2.15 Learning Check
+
+Question
+01/05
+Genesys Framework is made up of seven different layers.
+
+True
+
+False(FALSO)
+
+
+
+
+Question
+02/05
+Configuration Layer provides centralized configuration, access control, and dynamic reconfiguration and notification.
+
+True (VERDADEIRO)
+
+False
+
+Question
+03/05
+Media Layer monitors objects, applications, solutions, and views status and alarms.
+
+True
+
+False(CORRETA)
+
+
