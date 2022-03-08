@@ -331,4 +331,60 @@ Os aplicativos de roteamento flexíveis são desenvolvidos para atender às nece
 - **Business priority routing(Roteamento de prioridade de negócios) ** –encompasses additional selection criteria that Genesys can consider when routing interactions including priority, interaction age, “What-If” wait time, and service objective risk factor(abrange critérios de seleção adicionais que a Genesys pode considerar ao rotear interações, incluindo prioridade, idade da interação, tempo de espera “E se” e fator de risco do objetivo do serviço.).
 
 
+## 2.11 Solution Reporting
+
+
+Fornecido como parte integrante da Plataforma Genesys, o Solution Reporting oferece um foco operacional para otimizar a eficiência. As métricas em tempo real fornecem aos administradores e gerentes do contact center uma visão única e abrangente do contact center, o que ajuda a otimizar a eficiência das operações do contact center.
+
+O relatório da solução concentra-se nas estatísticas produzidas pela estrutura com base em todas as atividades do contact center.
+
+**Real-Time Reporting**
+Relatórios em tempo real
+
+- What is happening now(O que está acontecendo agora)
+
+- Provides immediate feedback(Fornece feedback imediato)
+
+Os relatórios em tempo real fornecem aos supervisores e analistas as condições atuais do contact center, como o número de chamadas na fila, o nível de serviço e o número de agentes conectados.
+
+**Importance of Real-Time Reporting(Importância dos relatórios em tempo real)
+
+Os gerentes e supervisores do contact center podem gerenciar um contact center com mais eficiência quando têm as informações necessárias para tomar decisões rápidas e tomar decisões proativas para melhorar a experiência dos clientes.
+
+## 2.12 Solution Reporting Application
+
+Os seguintes aplicativos de relatórios de soluções são oferecidos pela Genesys:
+
+Pulse–Um aplicativo gráfico de usuário on-line independente baseado em widget, que você pode acessar a partir do GAX como um link. O Pulse fornece estatísticas de contact center em tempo real.
+
+## 2.13 Review: Framework, Routing, and Reporting(Framework, Routing, and Reporting)
+
+- A arquitetura do framework é composta por cinco camadas.
+
+- Genesys Administrator Extension fornece um ponto único para configuração e gerenciamento.
+
+- Genesys Routing faz parte da Plataforma Genesys.
+
+- Todos os tipos de interação com o cliente são roteados universalmente.
+
+- Os relatórios em tempo real são abrangentes e personalizáveis.
+
+A Plataforma Genesys é o núcleo do conjunto de soluções Genesys(is the core of the Genesys solution) - um ambiente único poderoso e comprovado para projetar, implantar e gerenciar todas as interações com clientes e processos de itens de trabalho dentro do contact center e em toda a empresa para que a operação de atendimento ao cliente esteja alinhada e integrado com os processos gerais de negócios.
+
+A Plataforma Genesys suporta todos os canais de interação tradicionais, como voz, e-mail e Web, bem como canais como vídeo, SMS, chat e celular.
+
+Essa plataforma única centraliza a criação, provisionamento, administração e gerenciamento do processo de interação, relata todas as interações e atividades e se integra com a mais ampla gama de infraestrutura de contact center. Ele também roteia interações em um ou vários sites. Esta aula se concentrará na Estrutura,  Framework, Universal Routing(Roteamento Universal) e Solution Reporting(Relatório de Solução). O  Interaction Management  (Gerenciamento de Interação) é abordado em cursos de treinamento de eServices.
+
+
+## 2.14 Learning Summary
+
+Agora que você concluiu este capítulo, você deve ser capaz de fazer o seguinte:
+
+1 - Descrever a Arquitetura em Camadas do Framework.
+
+2 -Descrever as principais funções das camadas do framework.
+
+3 - Descreva o roteamento Genesys.
+
+4 -Descreva o Genesys Reporting.
 
