@@ -140,3 +140,189 @@ monitorar e controlar seu ambiente Genesys.
 
 ## 2.6 Media Layer
 
+Functions of Media Layer
+
+The Media Layer serves as the center of any Genesys system, receiving and distributing messages as directed by the other components. The Media Layer enables solutions to communicate with a variety of media including traditional telephony systems, voice over IP, email, instant messaging, and the Web. This layer also provides the mechanism for the attached data distribution within and across solutions.
+
+A camada de mídia serve como o centro de qualquer sistema Genesys, recebendo e distribuindo mensagens conforme orientado pelos outros componentes. A camada de mídia permite que as soluções se comuniquem com uma variedade de mídias, incluindo sistemas de telefonia tradicionais, voz sobre IP, e-mail, mensagens instantâneas e a Web. Essa camada também fornece o mecanismo para a distribuição de dados anexados dentro e entre soluções.
+
+![image](https://user-images.githubusercontent.com/52088444/157258959-eee9bd04-6271-4a23-9616-a949a7c4094e.png)
+
+**External Interfaces(Interfaces externas)**
+
+The Media Layer allows communication with a variety of telephony and multimedia systems. This allows the Genesys solutions to have control over customer interactions.
+A camada de mídia permite a comunicação com uma variedade de sistemas de telefonia e multimídia. Isso permite que as soluções Genesys tenham controle sobre as interações com o cliente.
+
+**Interaction Tracking(Acompanhamento de interação)**
+
+The Media Layer tracks interactions that are in process. For example, for the life of a call, it maintains call information such as connection ID (a unique identifier), Automatic Number Identification (ANI), Dialed Number Identification (DNIS), and custom attached data.
+
+A camada de mídia rastreia as interações que estão em processo. Por exemplo, durante a vida de uma chamada, ele mantém informações da chamada, como ID de conexão (um identificador exclusivo), Identificação Automática de Número (ANI), Identificação de Número Discado (DNIS) e dados anexados personalizados.
+
+**Attached Data Distribution(Attached Data Distribution)**
+
+The Media Layer supports the distribution of data attached to interactions within and across solutions. Attached data enables screen pop and intelligent transfers. In addition, routing decisions can be made based on attached data.
+
+A camada de mídia suporta a distribuição de dados anexados a interações dentro e entre soluções. Os dados anexados permitem o pop-up da tela e transferências inteligentes. Além disso, as decisões de roteamento podem ser tomadas com base nos dados anexados.
+
+
+
+## 2.7 Services Layer
+
+
+
+Functions of Services Layer
+
+The Services Layer generates statistical and status data used for interaction processing and contact center reporting.
+
+A Camada de Serviços gera dados estatísticos e de status usados para processamento de interação e relatórios do contact center.
+
+![image](https://user-images.githubusercontent.com/52088444/157259820-94357cd3-7b75-464f-a89a-5a9656764e2f.png)
+
+
+**Compilation of Statistics and Object Status(Compilação de Estatísticas e Status do Objeto)**
+
+Stat Server collects statistics and calculates the status of contact center objects (Agents, Places, DNs, and their groups).
+O Stat Server coleta estatísticas e calcula o status dos objetos do contact center (Agentes, Locais, DNs e seus grupos).
+
+calcule o tempo médio de espera
+Calcule quanto tempo o agente está pronto
+
+![image](https://user-images.githubusercontent.com/52088444/157260821-bb1751ca-cf31-4c97-8bfa-0c185c0c94a4.png)
+
+
+## 2.8 Genesys Framework Review
+
+Let’s review the functional examples of each layer.
+
+![image](https://user-images.githubusercontent.com/52088444/157260995-c8a06a04-23c2-4c1f-a7f2-c07d0e4fda46.png)
+
+- Camada de Configuração(Configuration Layer): Processe e armazene os dados do contact center
+- Camada de gerenciamento(Managment Layer): gerencie aplicativos Genesys
+- Camada de interação do usuário(User Interaction Layer): Implanta, provisiona e gerencia objetos Genesys.
+- Media Layer(Media Layer): interface externa que cria e mantém o objeto de chamada
+- Camada de Serviços(Services Layer): Calcula estatísticas e fornece status de recursos
+
+
+The five layers of the Genesys Framework provide the above functionalities whether you are executing routing or outbound campaigns. These layers use telephony-only or multimedia or implement a multi-site global enterprise or a single center startup to function. The framework supports interactions with different physical switches and different media concurrently across sites.
+
+All of these components of the Genesys Platform and the Genesys Solution Suite are used together to resolve Contact Center concerns such as managing across the enterprise and using existing switch hardware. The centralized management generates alarms and reactions so system administrators are aware of failures that affect the Genesys Platform, such as disconnection or errors in the application, and enables them to immediately address the issue, minimizing the impact of possible downtime. The availability of customer data and the ability to attach, distribute, and edit it promotes improved first call resolution numbers and supports your efforts to provide excellent customer support.
+
+As cinco camadas do Genesys Framework fornecem as funcionalidades acima, quer você esteja executando campanhas de roteamento ou de saída. Essas camadas usam apenas telefonia ou multimídia ou implementam uma empresa global de vários locais ou uma inicialização de centro único para funcionar. A estrutura oferece suporte a interações com diferentes switches físicos e diferentes mídias simultaneamente nos sites.
+
+Todos esses componentes da Plataforma Genesys e do Genesys Solution Suite são usados ​​juntos para resolver problemas do Contact Center, como gerenciamento em toda a empresa e uso de hardware de switch existente. O gerenciamento centralizado gera alarmes e reações para que os administradores do sistema estejam cientes das falhas que afetam a Plataforma Genesys, como desconexão ou erros na aplicação, e permite que eles resolvam o problema imediatamente, minimizando o impacto de possíveis paralisações. A disponibilidade dos dados do cliente e a capacidade de anexá-los, distribuí-los e editá-los promovem números de resolução de primeira chamada aprimorados e apoiam seus esforços para fornecer excelente suporte ao cliente.
+
+![image](https://user-images.githubusercontent.com/52088444/157263781-aeab98dd-1e5d-4e78-83ca-c58e9c3cefd1.png)
+
+O Genesys Routing and Reporting também usa o Genesys Framework.
+
+## 2.9 Routing
+
+Para muitas organizações, as mudanças nos requisitos de atendimento ao cliente exigem novos recursos que criam uma experiência de usuário melhor, mais eficaz e recompensadora. Um fator crítico para o sucesso é o roteamento inteligente, a capacidade de direcionar a interação do cliente para o recurso correto, independentemente do canal ou fonte de interação, e manter automaticamente o histórico de relacionamento com o cliente e as informações do último agente em qualquer chamada transferida.
+
+**Contact Center Challenges**
+
+
+- How to select the best agent to serve any given customer service request
+
+- How to manage remote agents at branch offices, outsourcers, and homes
+
+- How to coordinate different types of customer interactions
+
+- How to manage distributed sites
+
+**Desafios do Contact Center**
+
+
+-Como selecionar o melhor agente para atender qualquer solicitação de atendimento ao cliente
+
+- Como gerenciar agentes remotos em filiais, terceirizados e residências
+
+- Como coordenar diferentes tipos de interações com o cliente
+
+- Como gerenciar sites distribuídos
+
+![image](https://user-images.githubusercontent.com/52088444/157264841-59687897-171d-446e-bed3-ff34ee3c11f6.png)
+
+**Routing Challenges**
+
+Routing can be challenging with disjointed resources such as agents and information. Many of the following challenges face call centers today:
+
+- Selecting a proper agent to serve any given customer service request
+- Managing remote agents at branch offices, outsourcers, and homes
+- Incorporating contact centers in different locations
+- Coordinating different types of customer interactions
+- Leveraging enterprise resources outside contact centers
+- Tracking, collecting, and reporting all customer interactions
+- Utilizing enterprise databases to support customer interactions
+- Measuring and managing overall customer service performance
+
+O roteamento pode ser desafiador com recursos desconexos, como agentes e informações. Muitos dos seguintes desafios enfrentam os call centers hoje:
+
+- Selecionar um agente adequado para atender a qualquer solicitação de atendimento ao cliente
+- Gerenciamento de agentes remotos em filiais, terceirizados e residências
+- Incorporação de contact centers em diferentes locais
+- Coordenar diferentes tipos de interação com o cliente
+- Alavancando os recursos da empresa fora dos contact centers
+- Rastreamento, coleta e relatório de todas as interações com o cliente
+- Utilização de bancos de dados corporativos para apoiar as interações com o cliente
+- Medir e gerenciar o desempenho geral do serviço ao cliente
+
+## Getting to Know Genesys Universal Routing(Conhecendo o Genesys Universal Routing)
+
+Universal Routing is a part of the Genesys Platform that provides the core interaction management functionality.
+O Roteamento Universal é uma parte da Plataforma Genesys que fornece a principal funcionalidade de gerenciamento de interação.
+
+![image](https://user-images.githubusercontent.com/52088444/157265466-64ca0cb9-173e-4fbd-9885-0e697613d064.png)
+
+In the simplest terms, routing is the process of sending an interaction to a target. Examples include directing an incoming telephone call or an incoming email to an agent.
+
+In practice, many steps must be taken between the arrival of an interaction and the selection and use of a target. Not all interactions should go to the same target, choices must be made in order to determine the best target for each interaction.
+
+Each choice-point is an opportunity to make a decision based on the current situation with the goal of getting the interaction delivered to the right target.
+
+At a high level, Genesys Universal Routing incorporates three key areas for routing decisions: Customer, interaction, and resources. All routing can be designed and developed according to specific business rules and objectives. Using the customer/account info/segment, interaction types, and various kinds of resource availability, a wide variety of routing strategies are formed to meet the business needs and goals of the enterprise.
+
+Em termos mais simples, roteamento é o processo de enviar uma interação para um destino. Os exemplos incluem direcionar uma chamada telefônica recebida ou um e-mail recebido para um agente.
+
+Na prática, muitos passos devem ser dados entre a chegada de uma interação e a seleção e uso de um alvo. Nem todas as interações devem ir para o mesmo alvo, escolhas devem ser feitas para determinar o melhor alvo para cada interação.
+
+Cada ponto de escolha é uma oportunidade de tomar uma decisão com base na situação atual com o objetivo de entregar a interação ao alvo certo.
+
+Em alto nível, o Genesys Universal Routing incorpora três áreas principais para decisões de roteamento: Cliente, interação e recursos. Todo roteamento pode ser projetado e desenvolvido de acordo com regras e objetivos de negócios específicos. Usando as informações/segmentos do cliente/conta, tipos de interação e vários tipos de disponibilidade de recursos, uma ampla variedade de estratégias de roteamento é formada para atender às necessidades e objetivos de negócios da empresa.
+
+## 2.10 Genesys Routing Capabilities(Recursos de Roteamento Genesys)
+
+**Genesys Universal Routing:**
+
+- Optimizes resources for customer service operations.
+- Minimizes cost of transfer by matching best resources.
+- Enhances customer experience and improves agent productivity.
+
+- Otimiza recursos para operações de atendimento ao cliente.
+- Minimiza o custo de transferência combinando os melhores recursos.
+- Melhora a experiência do cliente e melhora a produtividade do agente.
+
+**Flexible routing applications are developed to meet business needs and objectives:**
+Os aplicativos de roteamento flexíveis são desenvolvidos para atender às necessidades e objetivos de negócios:
+
+- **Database-driven routing** –provides routing based on an enterprise’s customer database information, such as a customer’s account status or call history.
+- **Skills-based routing**–finds an agent who has the proper skills to assist the customer effectively, such as a customer’s preferred language.
+- **Service-level routing**–enables interactions to be routed according to specified service-level requirements for service types and customer segmentation. For example, a business might have two service-level requirements: 90% of interactions received from premier customers must be answered in 10 seconds and 80% of all interactions must be answered in 20 seconds.
+    - Universal Routing Server can expand or contract the number of agents available to maintain these service-level requirements.
+    - This type of routing also supports a more advanced form of skills-based routing, which rates a skill or skill set according to its importance level.
+- **Statistical routing**–allows you to route interactions based on the value of a statistic. The following are commonly used statistics:
+
+    - StatAgentLoading is used for distributing interactions among agents evenly within an agent group. This predefined statistic can be used to select an agent based on two criteria: Least number of busy DNs and longest time in Ready state.
+    - StatAgentOccupancy is used for distributing interactions among agents fairly within a group in a voice contact center. This predefined statistic can be used as agent selection criteria in an agent surplus scenario.
+
+- **Relationship** -based routing–takes personalization to another level by enabling your most valuable customers to reach specific agents or groups of agents based on assignment or last-contact metrics.
+
+- **Multi-site routing** –supports routing across the contact center. Multiple sites—and all available agent resources—serve as one virtual contact center. Interactions are routed according to business criteria and best available agent, regardless of location. Genesys T-Servers support switches that transfer interactions between sites, so you can route interactions to contact centers at different sites and between different departments at different sites. This results in reduced administrative expense and increased workforce flexibility.
+
+- **Multimedia routing** –enables the routing of multiple types of interactions, such as email, chat, and SMS within a contact center. Routing applications can control automatic email receipts and email replies according to content analysis rules, which learn to respond specifically to your customer base.
+
+- **Business priority routing** –encompasses additional selection criteria that Genesys can consider when routing interactions including priority, interaction age, “What-If” wait time, and service objective risk factor.
+
+
+
