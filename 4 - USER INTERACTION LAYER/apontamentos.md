@@ -212,6 +212,152 @@ Essa lista aparece apenas em ambientes de configuração multilocatário.
 
 ![image](https://user-images.githubusercontent.com/52088444/157463244-57086838-e96c-46a7-a796-0b0896143234.png)
 
+Use this list to select the objects that are used by all tenants in the environment or only those belonging to a specific tenant. A multi-tenant environment is one in which several companies are using the same set of Genesys software, where each company is referred to as a tenant.
+
+Use esta lista para selecionar os objetos que são usados ​​por todos os locatários no ambiente ou apenas aqueles que pertencem a um locatário específico. Um ambiente multilocatário é aquele em que várias empresas estão usando o mesmo conjunto de software Genesys, em que cada empresa é chamada de locatário.
+
+## 4.9 Online Help
+
+GAX has context-sensitive online help. The help topic is automatically provided based on the action you are performing. Online help has well-documented information on functions and options. You can also search for a specific topic. To access Help, click the question mark found on the header.
+
+GAX tem ajuda online sensível ao contexto. O tópico de ajuda é fornecido automaticamente com base na ação que você está executando. A ajuda online tem informações bem documentadas sobre funções e opções. Você também pode pesquisar um tópico específico. Para acessar a Ajuda, clique no ponto de interrogação encontrado no cabeçalho.
+
+Online help may require a Support Login. Contact Genesys Customer Care for more information.
+A ajuda online pode exigir um Login de Suporte. Entre em contato com o Atendimento ao cliente da Genesys para obter mais informações.
+
+![image](https://user-images.githubusercontent.com/52088444/157463830-7d46cfb5-46fa-4b18-a48d-1ab045bce566.png)
+
+## 4.10 User Tools and Preferences(Ferramentas e preferências do usuário)
+
+GAX enables you to customize the interface to suit your personal preferences. These preferences take effect each time you log in to GAX from any web browser.
+O GAX permite que você personalize a interface para atender às suas preferências pessoais. Essas preferências entram em vigor sempre que você faz login no GAX a partir de qualquer navegador da web.
 
 
+![image](https://user-images.githubusercontent.com/52088444/157464234-f4559953-60a0-4d95-8b2b-feb0a5b0e9e7.png)
 
+
+To open the User Tools and Preferences menu, click your username in the Header bar. The User Tools and Preferences menu contains the following options:
+
+
+- About
+- Change Password
+- User Preferences
+- System Preferences
+- Set Current Page as Home
+- Log Out
+
+Para abrir o menu Ferramentas e preferências do usuário, clique no seu nome de usuário na barra de cabeçalho. O menu Ferramentas e preferências do usuário contém as seguintes opções:
+
+
+- Sobre
+- Mudar senha
+- Preferências de usuário
+- Preferências do Sistema
+- Definir a página atual como inicial
+- Sair
+
+**Para abrir o menu Ferramentas e preferências do usuário, clique no seu nome de usuário na barra de cabeçalho. O menu Ferramentas e preferências do usuário contém as seguintes opções:
+
+
+- Sobre
+- Mudar senha
+- Preferências de usuário
+- Preferências do Sistema
+- Definir a página atual como inicial
+
+**About**
+
+You can click the About option to view information about your installation and about the Configuration Server to which you are connected.
+Você pode clicar na opção Sobre para visualizar informações sobre sua instalação e sobre o Servidor de Configuração ao qual você está conectado.
+
+![image](https://user-images.githubusercontent.com/52088444/157464689-f84511c5-cc14-4ddd-9701-9dbc57c82960.png)
+
+**Set Current Page as Home(Definir a página atual como inicial)**
+
+The Set Current Page as Home option is also found under the GAX User Tools and Preferences menu. You can choose the Set Current Page as Home option to use the currently displayed page as the home page for your GAX user account. 
+
+A opção Definir página atual como página inicial também é encontrada no menu Ferramentas e preferências do usuário GAX. Você pode escolher a opção Definir página atual como inicial para usar a página exibida no momento como a página inicial da sua conta de usuário GAX.
+
+**Change Password**
+
+Using GAX, you can change your password with the Change Password menu option. To access this option, go to the User Tools and Preferences menu on the Header bar and click Change Password. The current user’s login name is then displayed. You are required to enter your existing password and enter the new password twice. 
+
+Your password change for the application takes effect the next time you log in.
+
+
+Usando o GAX, você pode alterar sua senha com a opção de menu Alterar senha. Para acessar esta opção, vá para o menu Ferramentas e Preferências do Usuário na barra de Cabeçalho e clique em Alterar Senha. O nome de login do usuário atual é então exibido. Você deve digitar sua senha existente e digitar a nova senha duas vezes.
+
+Sua alteração de senha para o aplicativo entrará em vigor na próxima vez que você efetuar login.
+
+![image](https://user-images.githubusercontent.com/52088444/157465186-71a96cdd-829e-4eca-bd06-1e0d4e977f6e.png)
+
+The user’s password is encrypted within GAX (as well as in GA and the Configuration Database). Transport of encrypted passwords between Configuration Server and clients is secure.
+
+A senha do usuário é criptografada no GAX (assim como no GA e no banco de dados de configuração). O transporte de senhas criptografadas entre o Configuration Server e os clientes é seguro.
+
+**User Preferences**
+
+In GAX, the User Preferences drop-down list contains the following preferences:
+
+- **Advanced**—Lets you set the level of logging detail for the GAX log file (Debug, Info, Warning, Error, or Off to turn off logging).
+
+**Locale**—Lets you set your individual user preferences for language, date format, start of week (Sunday or Monday), number format, and time zone.
+
+No GAX, a lista suspensa User Preferences contém as seguintes preferências:
+
+- **Avançado**—Permite definir o nível de detalhes de registro para o arquivo de registro GAX (Depuração, Informações, Aviso, Erro ou Desativado para desativar o registro).
+
+- **Locale**—Permite que você defina suas preferências de usuário individuais para idioma, formato de data, início de semana (domingo ou segunda-feira), formato de número e fuso horário.
+
+- **Gerenciador de Configuração** —Permite definir as preferências de exibição do Gerenciador de Configuração (Mostrar DBID, Mostrar Recente e Número máximo de itens recentes a serem exibidos).
+- **Configuration Manager** —Lets you set the display preferences for Configuration Manager (Show DBID, Show Recent, and Maximum number of recent items to display).
+
+![image](https://user-images.githubusercontent.com/52088444/157465787-ae2bdb31-431b-4b75-aebf-b3d9de1962ba.png)
+
+Be sure to click Save after changing any of the user preferences.
+Certifique-se de clicar em Salvar após alterar qualquer uma das preferências do usuário.
+
+**System Preferences**
+
+In GAX, the System Preferences drop-down list contains three options – Throttling, Locale, and Agent Management.
+No GAX, a lista suspensa System Preferences contém três opções – Throttling, Locale e Agent Management.
+
+**Throttling(limitação)**
+
+Throttling lets you set the number of simultaneous changes that are sent to the Configuration Server. Change the Bulk Update Batch Size field to specify how many bulk updates for configuration objects can be executed simultaneously. The default value is 300.
+
+A value of 0 indicates that there will be no throttling of changes for configuration objects (all requested operations will be sent to the Configuration Server without delay). You can enter 0 or any positive integer in this field.
+
+A limitação permite definir o número de alterações simultâneas que são enviadas ao Configuration Server. Altere o campo Tamanho do lote de atualização em massa para especificar quantas atualizações em massa para objetos de configuração podem ser executadas simultaneamente. O valor padrão é 300.
+
+Um valor de 0 indica que não haverá limitação de alterações para objetos de configuração (todas as operações solicitadas serão enviadas ao Configuration Server sem demora). Você pode inserir 0 ou qualquer número inteiro positivo neste campo.
+
+**Locale**
+
+Locale lets you set your overall GAX preferences for language, date format, start of week (Sunday or Monday), number format, and time zone.
+A localidade permite que você defina suas preferências gerais do GAX para idioma, formato de data, início da semana (domingo ou segunda-feira), formato de número e fuso horário.
+
+![image](https://user-images.githubusercontent.com/52088444/157466849-215f5322-246d-486b-89ee-901a988cd80d.png)
+
+**Agent Management(Gerenciamento de Agentes)**
+
+Agent Management
+
+Agent Management lets you choose whether the Agents window is displayed using the Cloud layout or Premise layout. If you select Hidden, the Agent menu is not displayed on the GAX header and then there is no option to add agents using the Agent window. 
+
+When you change this option you must log off and log back in to see your changes take effect. By default, the Agents menu is hidden.
+
+
+O Gerenciamento de Agentes permite que você escolha se a janela Agentes é exibida usando o layout Cloud ou o layout Premise. Se você selecionar Oculto, o menu Agente não será exibido no cabeçalho GAX e não haverá opção para adicionar agentes usando a janela Agente.
+
+Ao alterar esta opção, você deve fazer logoff e fazer login novamente para ver suas alterações entrarem em vigor. Por padrão, o menu Agentes fica oculto.
+
+![image](https://user-images.githubusercontent.com/52088444/157467158-81ff6811-50a4-4654-9c0a-fcde2a63e88c.png)
+
+Settings in the User Preferences menu take precedence over settings in the System Preferences menu.
+
+For example, if the System Preferences language setting is English (US) and the User Preferences language setting is different, GAX uses the User Preferences language setting.
+
+As configurações no menu Preferências do usuário têm precedência sobre as configurações no menu Preferências do sistema.
+
+Por exemplo, se a configuração de idioma das Preferências do sistema for Inglês (EUA) e a configuração de idioma das Preferências do usuário for diferente, o GAX usará a configuração de idioma das Preferências do usuário.
