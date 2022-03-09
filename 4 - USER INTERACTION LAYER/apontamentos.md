@@ -192,3 +192,15 @@ O cabeçalho GAX contém seis guias, cada uma correspondendo a um módulo funcio
 - **Administração**—Permite que os administradores implantem produtos Genesys em locais remotos.
 
 - **Logs centralizados**—Permite que os usuários acessem eventos de log que são registrados em um local central para acesso conveniente e solução de problemas em nível de solução.
+
+
+## 4.7 Breadcrumbs
+
+Genesys configuration objects are in folders. (Folder names may be specific to your contact center.)
+Os objetos de configuração do Genesys estão em pastas. (Os nomes das pastas podem ser específicos do seu contact center.)
+
+![image](https://user-images.githubusercontent.com/52088444/157460480-d2def49c-4272-4ce7-be4e-de114bc5fb73.png)
+
+Breadcrumbs are located directly beneath the tabs. This navigation path shows the tab/menu selections that brought you to the currently active part of the interface. You can also select any entry in this path to go directly to that part of the interface. Home is the Configuration Manager home.
+
+Breadcrumbs  estão localizadas diretamente abaixo das guias. Este caminho de navegação mostra as seleções de guia/menu que o levaram à parte ativa da interface no momento. Você também pode selecionar qualquer entrada neste caminho para ir diretamente para essa parte da interface. Home é a casa do Configuration Manager.
