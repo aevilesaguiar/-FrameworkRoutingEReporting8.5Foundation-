@@ -361,3 +361,42 @@ For example, if the System Preferences language setting is English (US) and the 
 As configurações no menu Preferências do usuário têm precedência sobre as configurações no menu Preferências do sistema.
 
 Por exemplo, se a configuração de idioma das Preferências do sistema for Inglês (EUA) e a configuração de idioma das Preferências do usuário for diferente, o GAX usará a configuração de idioma das Preferências do usuário.
+
+## 4.11 Security Based on Login
+
+Roles and Permissions affect what you can see and what you can do when you log on to GAX.
+For example, if you have two different users—each with a different set of permissions and roles—when each user logs on, they would see a different interface in GAX that would allow them to do different things.
+
+One user with fewer permissions and a restricted role would see only the Dashboard option on the GAX Header, as shown in the following image.
+
+Funções e permissões afetam o que você pode ver e o que pode fazer ao fazer logon no GAX.
+Por exemplo, se você tiver dois usuários diferentes, cada um com um conjunto diferente de permissões e funções, quando cada usuário fizer logon, eles verão uma interface diferente no GAX que permitirá que eles façam coisas diferentes.
+
+![image](https://user-images.githubusercontent.com/52088444/157468551-3e9d0f88-e4e8-47cc-aaeb-0579bd1a2582.png)
+
+The other user who has more permissions would have access to all of the options on the GAX header, as shown in the following image.
+O outro usuário que tiver mais permissões teria acesso a todas as opções do cabeçalho GAX, conforme mostrado na imagem a seguir.
+
+![image](https://user-images.githubusercontent.com/52088444/157468658-1542588c-0e5c-4b11-95d7-ff233386edb7.png)
+
+The interface can also vary based on implementation. It may appear differently in your own work environment than it does in the classroom.
+A interface também pode variar com base na implementação. Pode parecer diferente em seu próprio ambiente de trabalho do que na sala de aula.
+
+## 4.12 Learning Summary(Resumo de aprendizagem)
+
+Now that you have completed this chapter, you should be able to do the following: 
+ 1 - Recall major functions of the User Interaction Layer.
+2 - Describe GAX.
+3 - Describe the major sections of GAX.
+4 - Observe different levels of access in GAX.
+5 - Change user passwords using GAX.
+
+
+Agora que você concluiu este capítulo, você deve ser capaz de fazer o seguinte:
+ 1 - Recupere as principais funções da camada de interação do usuário.
+2 - Descreva o GAX.
+3 - Descreva as principais seções do GAX.
+4 - Observe os diferentes níveis de acesso no GAX.
+5 - Altere as senhas dos usuários usando GAX.
+
+
