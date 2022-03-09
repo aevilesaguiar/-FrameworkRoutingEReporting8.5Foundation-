@@ -204,3 +204,14 @@ Os objetos de configuração do Genesys estão em pastas. (Os nomes das pastas p
 Breadcrumbs are located directly beneath the tabs. This navigation path shows the tab/menu selections that brought you to the currently active part of the interface. You can also select any entry in this path to go directly to that part of the interface. Home is the Configuration Manager home.
 
 Breadcrumbs  estão localizadas diretamente abaixo das guias. Este caminho de navegação mostra as seleções de guia/menu que o levaram à parte ativa da interface no momento. Você também pode selecionar qualquer entrada neste caminho para ir diretamente para essa parte da interface. Home é a casa do Configuration Manager.
+
+## 4.8 Tenant
+
+This list appears only in multi-tenant configuration environments.
+Essa lista aparece apenas em ambientes de configuração multilocatário.
+
+![image](https://user-images.githubusercontent.com/52088444/157463244-57086838-e96c-46a7-a796-0b0896143234.png)
+
+
+
+
