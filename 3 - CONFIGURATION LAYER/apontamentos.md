@@ -207,3 +207,47 @@ Agora que você concluiu este capítulo, você deve ser capaz de fazer o seguint
 4 - Descreva as Permissões.
 
 5- Descrever o controle de acesso baseado em função.
+
+## 3.7 Learning Check
+
+
+Question
+01/06
+Select all functions that apply to the Configuration Layer.
+- Access control
+- Dynamic reconfiguration and notification
+- Configuration
+
+Question
+02/06
+Permissions control access to the specific features in graphical interfaces. (FALSE)
+
+Question
+03/06
+The three major types of Genesys installations are: Single-site, Multi-site,
+and Multi-tenant.(VERDADEIRO)
+
+Question
+04/06
+A tenant is a single corporate entity with its own business goals, agents, strategies, switch configurations, etc.(VERDADEIRO)
+
+
+Question
+05/06
+What is the function of Configuration Server? 
+
+Maintains the logical integrity of configuration data (VERDADEIRO)
+
+Monitor and control applications  
+
+Tracks call information within the Contact Center  
+
+Question
+06/06
+Which component provides central repository for all configuration data?
+
+Configuration Server 
+
+Config DB (VERDADEIRO)
+
+Stat Server
