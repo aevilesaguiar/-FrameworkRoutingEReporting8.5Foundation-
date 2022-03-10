@@ -234,3 +234,11 @@ Agora que você concluiu este capítulo, você deve ser capaz de fazer o seguint
 3- Descreva o Solution Control Server.
 
 4- Use GAX para visualizar status e alarmes.
+
+##  6.8 Learning Check
+
+Question
+01/04
+Match up each task/issue to the corresponding GAX view.
+Combine cada tarefa/problema com a visualização GAX correspondente.
+
