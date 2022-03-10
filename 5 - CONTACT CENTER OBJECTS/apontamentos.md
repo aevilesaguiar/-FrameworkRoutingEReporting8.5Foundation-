@@ -704,3 +704,41 @@ Agora que você concluiu este capítulo, você deve ser capaz de fazer o seguint
 - Faça alterações em objetos básicos do Contact Center, como pessoas, grupos de agentes e habilidades.
 - Navegar em objetos básicos na Genesys Administrator Extension.
 
+ 
+## 5.15 .Question
+01/03
+Which of the following contact center items can you configure in Genesys Administration Extension? (Select all answers that apply.)
+Quais dos seguintes itens do contact center você pode configurar no Genesys Administration Extension? (Selecione todas as respostas que se aplicam.)
+
+Persons(true)
+Skills(true)
+Agent groups(true)
+Agent computers(false)
+
+Question
+02/03
+Which of the following Genesys configuration objects represents an agent’s desk with a phone and computer?
+Qual dos seguintes objetos de configuração Genesys representa a mesa de um agente com um telefone e um computador?
+
+![image](https://user-images.githubusercontent.com/52088444/157705866-4628594e-580b-4553-8a8d-15e40b65d71d.png)
+
+Extension
+
+DN
+
+Place(verdadeiro)
+
+Skill
+
+
+
+Question
+03/03
+Genesys uses the term configuration object to indicate a certain resource or part of the Genesys system.
+Genesys usa o termo objeto de configuração para indicar um determinado recurso ou parte do sistema Genesys. 
+
+True(verdadeiro)
+
+False
+
+
