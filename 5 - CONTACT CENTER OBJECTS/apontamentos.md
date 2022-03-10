@@ -691,3 +691,16 @@ The import process can create new objects as well as build relationships between
 Isso fornece a capacidade de importar um arquivo que pode ser usado para criar e modificar vários objetos de configuração.
 
 O processo de importação pode criar novos objetos, bem como construir relacionamentos entre objetos. Por exemplo, durante a criação de um conjunto de agentes, os agentes podem receber Habilidades, colocados em Grupos de Agentes e ter seu Grupo de Acesso definido. Em geral, ao usar o processo de importação ou exportação para construir relacionamentos, os objetos referenciados devem ser criados antecipadamente.
+
+
+## 5.14 Learning Summary
+Now that you have completed this chapter, you should be able to do the following: 
+- Describe Contact Center Objects, such as persons, agent groups, agent skills, places, place groups, and access groups.
+- Make changes to basic Contact Center Objects, such as persons, agent groups, and skills.
+- Navigate basic objects in Genesys Administrator Extension.
+
+Agora que você concluiu este capítulo, você deve ser capaz de fazer o seguinte:
+- Descrever objetos do Contact Center, como pessoas, grupos de agentes, habilidades de agentes, locais, grupos de locais e grupos de acesso.
+- Faça alterações em objetos básicos do Contact Center, como pessoas, grupos de agentes e habilidades.
+- Navegar em objetos básicos na Genesys Administrator Extension.
+
