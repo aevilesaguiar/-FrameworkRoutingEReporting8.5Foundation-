@@ -530,3 +530,41 @@ Neste capítulo, vamos ver as duas maneiras diferentes de criar agentes:
 - GAX - Gerenciador de configuração
 - GAX - Visualização de Agentes
 
+![image](https://user-images.githubusercontent.com/52088444/157687688-faec25a8-cae0-4404-af9a-77191122bebb.png)
+
+One option for creating new agents is the GAX–Configuration Manager. This interface provides a more detailed view of objects.
+
+When you create a new user, you must configure the common properties shared by both agents and non-agents.
+
+To configure the new agent, navigate to Configuration > Accounts > Persons > New and complete the General and Member of tabs of the New Properties section.
+
+- Employee ID–Uniquely identifies the person within the Genesys system. This is a required value. The Human Resources team often provides employee IDs.
+- Username–Refers to the login credential that the person is assigned to gain access to Genesys GUI applications such as the Genesys Agent Desktop application. This is a required value.
+- Password–Protects the user's account against unauthorized access to a Genesys GUI.
+- Member of Access Group–Determines what a user can and cannot do (permissions) within Genesys platform, based on which access groups the user is a member. Access groups are groups of users who need to have the same set of permissions of configuration objects in Genesys. Genesys provides three standard Access Groups for users: Users, Administrators, and Super Administrators. You can also create custom Access Groups.
+- State Enabled–Defines whether or not the employee’s status is active.
+- Agent–Defines whether or not the person is an agent. When creating a new person object in the Configuration Manager, this flag is selected by default. If you create a non-agent person object, you must clear this checkbox. Once the new user is saved, this option cannot be changed.
+
+Uma opção para criar novos agentes é o GAX–Configuration Manager. Essa interface fornece uma visão mais detalhada dos objetos.
+
+Ao criar um novo usuário, você deve configurar as propriedades comuns compartilhadas por agentes e não agentes.
+
+Para configurar o novo agente, navegue até Configuração > Contas > Pessoas > Novo e preencha as guias Geral e Membro da seção Novas propriedades.
+
+- ID do funcionário – identifica exclusivamente a pessoa dentro do sistema Genesys. Este é um valor obrigatório. A equipe de Recursos Humanos geralmente fornece IDs de funcionários.
+- Nome de usuário – Refere-se à credencial de login atribuída à pessoa para obter acesso aos aplicativos Genesys GUI, como o aplicativo Genesys Agent Desktop. Este é um valor obrigatório.
+- Senha – Protege a conta do usuário contra acesso não autorizado a uma GUI Genesys.
+- Membro do Grupo de Acesso – Determina o que um usuário pode e não pode fazer (permissões) na plataforma Genesys, com base em quais grupos de acesso o usuário é membro. Grupos de acesso são grupos de usuários que precisam ter o mesmo conjunto de permissões de objetos de configuração no Genesys. A Genesys fornece três grupos de acesso padrão para usuários: usuários, administradores e superadministradores. Você também pode criar grupos de acesso personalizados.
+- Estado Ativado – Define se o status do funcionário está ativo ou não.
+- Agente – Define se a pessoa é ou não um agente. Ao criar um novo objeto de pessoa no Configuration Manager, esse sinalizador é selecionado por padrão. Se você criar um objeto de pessoa não agente, deverá desmarcar essa caixa de seleção. Depois que o novo usuário for salvo, essa opção não poderá ser alterada.
+
+![image](https://user-images.githubusercontent.com/52088444/157688097-38b39865-997b-41a0-bf15-99ef5b735c80.png)
+
+Specify the appropriate access group to assign a set of permissions. Click the Member Of tab, click Add, and select an appropriate Access Group. Administrators define the access groups and the permissions they represent. In this example, the agent is now a member of the Users access group.
+
+Especifique o grupo de acesso apropriado para atribuir um conjunto de permissões. Clique na guia Membro de, clique em Adicionar e selecione um grupo de acesso apropriado. Os administradores definem os grupos de acesso e as permissões que eles representam. Neste exemplo, o agente agora é membro do grupo de acesso Usuários.
+
+![image](https://user-images.githubusercontent.com/52088444/157688296-371c6daf-070d-4a78-9638-f68004f149f6.png)
+
+![image](https://user-images.githubusercontent.com/52088444/157688351-8054e938-65c0-4fdf-9fe4-3aa34e6cb383.png)
+
