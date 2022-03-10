@@ -740,5 +740,3 @@ Genesys usa o termo objeto de configuração para indicar um determinado recurso
 True(verdadeiro)
 
 False
-
-
