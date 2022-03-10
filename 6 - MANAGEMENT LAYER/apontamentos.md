@@ -242,3 +242,54 @@ Question
 Match up each task/issue to the corresponding GAX view.
 Combine cada tarefa/problema com a visualização GAX correspondente.
 
+Question
+02/04
+Which functions apply to the Management Layer? (Select all answers that apply.)
+
+Attached data distribution
+
+Solution control (verdadeiro)
+
+Configuration
+
+Access control
+
+Interaction tracking    
+
+Dynamic reconfiguration and notification
+
+Log events interface(verdadeiro)
+
+Database connectivity
+
+Fault handling (verdadeiro)
+
+External interface
+
+Compilation of statistics and object status
+
+Alarm processing(verdadeiro)
+
+Question
+03/04
+
+Solution Control Server (SCS) is the processing center of the Management Layer.
+
+False
+
+True(verdaeiro)
+
+Question
+04/04
+What are the widgets available in the GAX System Dashboard? (Select all that apply.) 
+Quais são os widgets disponíveis no painel do sistema GAX? (Selecione tudo que se aplica.)
+
+Application(true)
+
+Host(true)
+
+Alarms(true)
+
+Solutions(true)
+
+Central Logging
