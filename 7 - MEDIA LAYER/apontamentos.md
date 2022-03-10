@@ -301,5 +301,6 @@ A seguir estão as abreviações e definições de CTI mais comuns que você pre
 ## Voice Over IP Specific Terminology
 
 ![image](https://user-images.githubusercontent.com/52088444/157737135-2248a527-d99b-4665-8205-ad0a8d99d175.png)
+![image](https://user-images.githubusercontent.com/52088444/157737297-02a4a252-fb80-42a4-979e-688ed06db257.png)
 
-
+## 7.10 Creating an Interaction
