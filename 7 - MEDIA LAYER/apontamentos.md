@@ -298,3 +298,8 @@ A seguir estão as abreviações e definições de CTI mais comuns que você pre
 ![image](https://user-images.githubusercontent.com/52088444/157735780-2eb1cfd4-f516-48e1-bcbb-ca77a8714113.png)
 ![image](https://user-images.githubusercontent.com/52088444/157735836-d95eb11f-1411-4a87-8dfe-2ccf925a12cb.png)
 
+## Voice Over IP Specific Terminology
+
+![image](https://user-images.githubusercontent.com/52088444/157737135-2248a527-d99b-4665-8205-ad0a8d99d175.png)
+
+
