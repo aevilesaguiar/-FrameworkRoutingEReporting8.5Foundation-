@@ -242,6 +242,9 @@ Question
 Match up each task/issue to the corresponding GAX view.
 Combine cada tarefa/problema com a visualização GAX correspondente.
 
+![image](https://user-images.githubusercontent.com/52088444/157719925-7598fc0d-89de-4e3d-a4fd-b4b9acaa5fdb.png)
+
+
 Question
 02/04
 Which functions apply to the Management Layer? (Select all answers that apply.)
