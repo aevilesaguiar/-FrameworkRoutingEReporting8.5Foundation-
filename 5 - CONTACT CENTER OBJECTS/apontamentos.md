@@ -568,3 +568,126 @@ Especifique o grupo de acesso apropriado para atribuir um conjunto de permissõe
 
 ![image](https://user-images.githubusercontent.com/52088444/157688351-8054e938-65c0-4fdf-9fe4-3aa34e6cb383.png)
 
+Because the new user will be an agent, you can configure the following extra agent properties:
+
+- Default Place–Used only in rare cases that can’t work with places (when a real-time association with a place cannot be established through the login procedure.)
+
+- Capacity Rule–A script which limits the number and media type of interactions that can be distributed to this user. For example, one voice and two emails. (See the Resource Capacity Planning Guide.) These can be assigned at the level of the agent, place, and tenant.
+
+Como o novo usuário será um agente, você pode configurar as seguintes propriedades extras do agente:
+
+- Local padrão – Usado apenas em casos raros que não podem trabalhar com locais (quando uma associação em tempo real com um local não pode ser estabelecida por meio do procedimento de login).
+
+- Regra de Capacidade – Um script que limita o número e o tipo de mídia de interações que podem ser distribuídas para este usuário. Por exemplo, uma voz e dois e-mails. (Consulte o Resource Capacity Planning Guide.) Eles podem ser atribuídos no nível do agente, local e locatário.
+
+![image](https://user-images.githubusercontent.com/52088444/157691354-91b5f2ec-bb2a-4cb5-8452-a3fbce1a1e1e.png)
+
+Skills–A complete description of each agent’s skill set enables complex routing decisions. Skills are defined in the Skills folder. They are selected and given level values in this tab.
+
+Click the Skills tab and select Add.
+Under Skills, click the folder icon to browse the list of existing skills and select one or enter the name of a new skill you wish to add.
+Assign a level from 1 to 10.
+Click OK.
+
+
+Habilidades – Uma descrição completa do conjunto de habilidades de cada agente permite decisões de roteamento complexas. As habilidades são definidas na pasta Habilidades. Eles são selecionados e recebem valores de nível nesta guia.
+
+Clique na guia Habilidades e selecione Adicionar.
+Em Habilidades, clique no ícone de pasta para navegar na lista de habilidades existentes e selecione uma ou digite o nome de uma nova habilidade que deseja adicionar.
+Atribua um nível de 1 a 10.
+Clique OK.
+
+![image](https://user-images.githubusercontent.com/52088444/157691500-723fac8a-06ca-48a6-9d70-e5648d53f20d.png)
+
+Agent Logins–Each telephony agent has a login ID which enables authorization on the switch. An agent can have more than one Login ID (from one or more switches), but you cannot assign a single agent login to more than one agent.
+
+Click the Agent Logins tab and select Add.
+Under Agent Login, click the folder icon to browse the agent logins already configured on the switches in your environment. Select an agent login from the list.
+Click OK.
+
+- Agent Checkbox–Make sure this box is checked for an agent.
+
+You can also edit existing agents. In the person's window, select the checkbox next to the agent you want to edit and click the Edit button at the top of the screen. This opens the details of the person and allows you to make any required changes.
+
+754 / 5.000
+Resultados de tradução
+Logins do Agente – Cada agente de telefonia possui um ID de login que permite a autorização no switch. Um agente pode ter mais de um ID de login (de uma ou mais centrais), mas você não pode atribuir um único login de agente a mais de um agente.
+
+Clique na guia Logins de agente e selecione Adicionar.
+Em Login do Agente, clique no ícone da pasta para navegar pelos logins do agente já configurados nos switches em seu ambiente. Selecione um logon de agente na lista.
+Clique OK.
+
+- Caixa de seleção do agente – certifique-se de que esta caixa esteja marcada para um agente.
+
+Você também pode editar os agentes existentes. Na janela da pessoa, marque a caixa de seleção ao lado do agente que deseja editar e clique no botão Editar na parte superior da tela. Isso abre os detalhes da pessoa e permite que você faça as alterações necessárias. 
+
+![image](https://user-images.githubusercontent.com/52088444/157691669-e91dc142-2d16-4c20-af65-c2f5f346e722.png)
+
+![image](https://user-images.githubusercontent.com/52088444/157691713-4eeb910f-66f7-4eba-9427-89516d4cb597.png)
+
+There is an additional option found in GAX: Agents View. This option doesn’t provide the same detailed view of the agent as the Configuration Manager, but it does allow for fast creation, modification, and deletion of agents. If the agent's view is not available, it can be turned on in the System Preferences. The preferences also determine the access group used for new agents added here.
+
+Depending on your assigned access at work, this may be the only page you have access to for creating agents.
+
+To create an agent in the Agents screen in GAX, you navigate to Agents View then, click Add. 
+
+Existe uma opção adicional encontrada no GAX: Visualização de Agentes. Essa opção não fornece a mesma visão detalhada do agente que o Configuration Manager, mas permite a criação, modificação e exclusão rápidas de agentes. Se a visualização do agente não estiver disponível, ela poderá ser ativada nas Preferências do Sistema. As preferências também determinam o grupo de acesso usado para novos agentes adicionados aqui.
+
+Dependendo do seu acesso atribuído no trabalho, esta pode ser a única página à qual você tem acesso para criar agentes.
+
+Para criar um agente na tela Agentes no GAX, navegue até a Visualização de agentes e clique em Adicionar.
+
+![image](https://user-images.githubusercontent.com/52088444/157691856-ef96744e-58ba-4c66-8294-a8442e0a287b.png)
+
+First, enter the required common properties for the user information:
+
+- Username, First Name, Last Name, and Password. The Username must be unique within the Genesys system. It will be used for logging in to interfaces.
+
+Primeiro, insira as propriedades comuns necessárias para as informações do usuário:
+
+- Nome de usuário, nome, sobrenome e senha. O nome de usuário deve ser exclusivo no sistema Genesys. Ele será usado para fazer login nas interfaces.
+
+![image](https://user-images.githubusercontent.com/52088444/157692041-237883f0-222a-41f6-8dd2-fffd0f1205f4.png)
+
+Next, configure the agent properties:
+
+![image](https://user-images.githubusercontent.com/52088444/157692086-2cd18fe8-d40b-4d3d-a72c-2cf41db403bb.png)
+
+For Place, click on the folder icon and select a place. This enables you to specify a default place to be used when the agent logs into an agent desktop.
+
+For Agent Logins, click the + to open a new window. Click the folder icon to browse the list. Select the agent’s assigned agent login for the switch or click the + and create the necessary new agent login.
+
+Para Local, clique no ícone da pasta e selecione um local. Isso permite que você especifique um local padrão a ser usado quando o agente efetuar login em um desktop do agente.
+
+Para Logins de Agente, clique no + para abrir uma nova janela. Clique no ícone da pasta para navegar na lista. Selecione o logon de agente atribuído ao agente para o switch ou clique em + e crie o novo logon de agente necessário.
+
+![image](https://user-images.githubusercontent.com/52088444/157692182-8be9f175-a290-4669-90af-24efe3023e7d.png)
+
+For Number/DNs, click the + to open the new window and click the folder icon to browse the list or click the + and create a new DN. By selecting a default place, the associated DNs will be set here.
+
+For Skills, select the checkbox next to the skill you wish to assign to your agent and enter a rating. If you wish to create a new skill, type the name of the skill you want to add in the search box and press Enter. Select the checkbox next to the newly added skill and enter a rating for that agent.
+
+For Agent Groups, select the checkbox next to any group you want to assign to your agent.
+
+Para Número/DNs, clique no + para abrir a nova janela e clique no ícone de pasta para navegar na lista ou clique no + e crie um novo DN. Ao selecionar um local padrão, os DNs associados serão definidos aqui.
+
+Para Habilidades, marque a caixa de seleção ao lado da habilidade que deseja atribuir ao seu agente e insira uma classificação. Se você deseja criar uma nova habilidade, digite o nome da habilidade que deseja adicionar na caixa de pesquisa e pressione Enter. Marque a caixa de seleção ao lado da habilidade recém-adicionada e insira uma classificação para esse agente.
+
+Para Grupos de agentes, marque a caixa de seleção ao lado de qualquer grupo que você deseja atribuir ao seu agente.
+
+![image](https://user-images.githubusercontent.com/52088444/157692309-64ac6932-6152-4239-988e-f0bf040812b1.png)
+
+After an agent has been added, they will be listed in the Agents view. By hovering the mouse over the row or selecting anywhere in the row, three tools appear at the far right to Disable, Clone, or Edit the agent. Disable prevents the agent object from being used such as to log in. Clone creates a new agent with the same initial properties. Edit lets you change the highlighted agent.
+
+Depois que um agente for adicionado, ele será listado na visualização Agentes. Ao passar o mouse sobre a linha ou selecionar qualquer lugar na linha, três ferramentas aparecem na extrema direita para Desativar, Clonar ou Editar o agente. Desabilitar impede que o objeto do agente seja usado como para efetuar login. Clone cria um novo agente com as mesmas propriedades iniciais. Editar permite alterar o agente destacado.
+
+![image](https://user-images.githubusercontent.com/52088444/157692395-855ed7cf-6b9e-460a-bead-4fc34d139b69.png)
+
+
+This provides the ability to import a file which can be used to create and modify various configuration objects.
+
+The import process can create new objects as well as build relationships between objects. For example, during the creation of a set of agents, the agents can be assigned Skills, put into Agent Groups, and have their Access Group set. In general, when using the import or export process to build relationships, the referenced objects should be created in advance.
+
+Isso fornece a capacidade de importar um arquivo que pode ser usado para criar e modificar vários objetos de configuração.
+
+O processo de importação pode criar novos objetos, bem como construir relacionamentos entre objetos. Por exemplo, durante a criação de um conjunto de agentes, os agentes podem receber Habilidades, colocados em Grupos de Agentes e ter seu Grupo de Acesso definido. Em geral, ao usar o processo de importação ou exportação para construir relacionamentos, os objetos referenciados devem ser criados antecipadamente.
