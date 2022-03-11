@@ -283,4 +283,158 @@ The flow below describes the use case from the perspective of the caller and con
 
 O fluxo abaixo descreve o caso de uso da perspectiva do chamador e do agente do contact center. O diagrama a seguir mostra o fluxo de negócios do caso de uso.
 
-![image](https://user-images.githubusercontent.com/52088444/157916056-a0e84beb-db11-4ee4-9410-a22a0b0e9c5a.png)
+![image](https://user-images.githubusercontent.com/52088444/157916680-c811539b-3d8a-4e02-98d8-4cb05631057d.png)
+
+## 9.8 OPM
+
+Contact centers would like to provide users the ability to change routing information quickly and easily. Genesys provides Operational Parameter Management(OPM)—modifying routing information to react quickly to the needed changes.
+
+Os centros de contato gostariam de fornecer aos usuários a capacidade de alterar as informações de roteamento de forma rápida e fácil. A Genesys fornece Operational Parameter Management (OPM)—modificando as informações de roteamento para reagir rapidamente às mudanças necessárias.
+
+
+Use GAX to change these values: 
+
+- Announcements
+- Open hours
+- Target
+- Agent screen pop
+- Emergencies
+
+
+Use GAX para alterar estes valores:
+
+- Anúncios
+- Horário de funcionamento
+- Alvo
+- Tela pop do agente
+- Emergências
+
+**Operational Parameter Management Examples(OPM)**
+
+There are numerous routing items that you can change in GAX. You can change announcements or music files to be played by Media Server, open and close times, holidays, targets, attached data for agent screen pop, skill levels, and so forth.
+
+Example:
+
+You can change open and close times for the Accounts department and set the announcement that will play when the department is closed (Accounts Close Announcement). In this example, a routing application has been configured to get this information and check if the current time is between the open and close time. If it is, the routing application routes the call to an agent. If the current time is outside of the open and close time, the routing application sends the call to the Media Server for the closed announcement.
+
+
+Existem vários itens de roteiro que podem ser alterados no GAX. Você pode alterar anúncios ou arquivos de música a serem reproduzidos pelo Media Server, horários de abertura e fechamento, feriados, alvos, dados anexados para pop de tela do agente, níveis de habilidade e assim por diante.
+
+Exemplo:
+
+Você pode alterar os horários de abertura e fechamento do departamento de contas e definir o anúncio que será reproduzido quando o departamento for fechado (Anúncio de fechamento de contas). Neste exemplo, um aplicativo de roteamento foi configurado para obter essas informações e verificar se o horário atual está entre o horário de abertura e fechamento. Se for, o aplicativo de roteamento roteará a chamada para um agente. Se o horário atual estiver fora do horário de abertura e fechamento, o aplicativo de roteamento enviará a chamada ao Media Server para o anúncio fechado.
+
+**Routing Parameters**
+
+A routing application receives the routing information that you have changed in the GAX. Composer users must configure the corresponding application to receive and act on the routing information changed in GAX.
+
+- GAX provides role-based administration to display only the information that a specific user needs.
+- GAX provides data validation for operational parameters after they have been set up.
+- The receiving routing application must be configured to accept the data that has been changed in the GAX.
+
+
+Parâmetros de roteamento
+
+Um aplicativo de roteamento recebe as informações de roteamento que você alterou no GAX. Os usuários do Composer devem configurar o aplicativo correspondente para receber e atuar nas informações de roteamento alteradas no GAX.
+
+- GAX fornece administração baseada em função para exibir apenas as informações que um usuário específico precisa.
+- GAX fornece validação de dados para parâmetros operacionais depois de configurados.
+- O aplicativo de roteamento de recebimento deve ser configurado para aceitar os dados que foram alterados no GAX.
+
+![image](https://user-images.githubusercontent.com/52088444/157919004-efa44f99-2143-42c4-bdc4-a1062b920369.png)
+
+![image](https://user-images.githubusercontent.com/52088444/157919383-87f0eb41-a5d5-4b7b-a3a8-be0099d9e9af.png)
+
+
+##  9.9 Configuring Operational Parameter Management(Configurando o Gerenciamento de Parâmetro Operacional)
+
+In Genesys Administrator Extension, the Routing Parameters menu provides operational parameter management.
+
+There are three Operational Parameters menu options:
+
+-  Parameters—You specify individual items that a routing application or voice application will use. Genesys Rules System uses operational parameters to facilitate greater business agility.
+- Group Templates—You group the individual items together (Parameters).
+- Parameter Groups—You specify values for all the items (Parameters) in the Parameter Group Template.
+
+No Genesys Administrator Extension, o menu Routing Parameters fornece gerenciamento de parâmetros operacionais.
+
+Existem três opções de menu de Parâmetros Operacionais:
+
+- Parâmetros—Você especifica itens individuais que um aplicativo de roteamento ou um aplicativo de voz usará. O Genesys Rules System usa parâmetros operacionais para facilitar uma maior agilidade nos negócios.
+- Modelos de grupo—Você agrupa os itens individuais (Parâmetros).
+- Grupos de Parâmetros—Você especifica valores para todos os itens (Parâmetros) no Modelo de Grupo de Parâmetros.
+
+
+## 9.10 Parameter Groups
+
+Parameter Groups are the sets of Operational Parameters that are associated with a routing application. They are first deployed as Parameter Group Templates. When needed, you can use this screen to assign values to the Operational Parameters. 
+
+When ORS executes a routing application, the values of the Operational Parameters in the associated Parameter Group are incorporated into the call flow.
+
+Grupos de Parâmetros são os conjuntos de Parâmetros Operacionais associados a um aplicativo de roteamento. Eles são implantados primeiro como modelos de grupo de parâmetros. Quando necessário, você pode usar esta tela para atribuir valores aos Parâmetros Operacionais.
+
+Quando o ORS executa um aplicativo de roteamento, os valores dos Parâmetros Operacionais no Grupo de Parâmetros associado são incorporados ao fluxo de chamadas.
+
+![image](https://user-images.githubusercontent.com/52088444/157921054-dae115a8-963e-454d-bd37-37415343b62c.png)
+
+
+
+## 9.11 Learning Summary
+
+Now that you have completed this chapter, you should be able to do the following: 
+
+1 - Recall Genesys Routing.
+
+2 - Describe ORS and URS.
+3 - Describe Composer.
+
+4 - Explain a Simple Routing Scenario. 
+
+5 - Describe the use of Parameter groups with Routing.
+
+6 - Use GAX to set values in Parameter Groups.
+
+
+## 9.11 Resumo de Aprendizagem
+
+Agora que você concluiu este capítulo, você deve ser capaz de fazer o seguinte:
+
+1 - Recupere o roteamento Genesys.
+
+2 - Descrever ORS e URS.
+3 - Descreva o Compositor.
+
+4 - Explique um cenário de roteamento simples.
+
+5 - Descrever o uso de Grupos de Parâmetros com Roteamento.
+
+6 - Use GAX para definir valores em Grupos de Parâmetros.
+
+## 9.12 Learning Check
+
+
+Question
+01/03
+Genesys Composer is an Eclipse-based development environment that supports the development of routing applications (SCXML).
+
+True( VERDADEIRO)
+
+False
+
+
+Question
+02/03
+Universal Routing Server is the routing engine that runs strategic target-seeking algorithms for inbound interactions.
+
+True (VERDADEIRO)
+
+False
+
+
+Question
+03/03
+Orchestration Server is responsible for executing SCXML based logic.
+
+True(VERDADEIRO)
+
+False
