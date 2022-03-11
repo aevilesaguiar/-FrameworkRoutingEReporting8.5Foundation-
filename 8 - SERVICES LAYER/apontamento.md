@@ -101,3 +101,66 @@ Now that you have completed this chapter, you should be able to do the following
 1 - Recall major functions of the Services Layer.
 
 2 - Describe the Stat Server.
+
+
+Agora que você concluiu este capítulo, você deve ser capaz de fazer o seguinte:
+
+1 - Relembre as principais funções da Camada de Serviços.
+
+2 - Descreva o Stat Server.
+
+
+## 8.6 Learning check
+
+Question
+01/04
+Stat Server tracks information about the contact center.
+
+True (verdade)
+
+false
+
+
+Question
+02/04
+Services Layer provides status of agent to the Configuration Layer.
+
+True
+
+False(correta)
+
+Question
+03/04
+Routing and reporting use the Services Layer for statistics.
+
+True(verdade)
+
+False
+
+Question
+04/04
+Which functions apply to the Services Layer?
+
+Interaction tracking
+
+Database connectivity
+
+Dynamic reconfiguration and notification
+
+Attached data distribution
+
+Alarm processing 
+
+Log events interface
+
+Fault handling
+
+Configuration
+
+Access control
+
+External interfaces
+
+Compilation of statistics and object status(verdade)
+
+Solution control
