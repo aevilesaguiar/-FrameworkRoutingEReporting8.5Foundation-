@@ -304,3 +304,153 @@ A seguir estão as abreviações e definições de CTI mais comuns que você pre
 ![image](https://user-images.githubusercontent.com/52088444/157737297-02a4a252-fb80-42a4-979e-688ed06db257.png)
 
 ## 7.10 Creating an Interaction
+
+Now that we have a better understanding of the Media layer's components and functionality that enables the entire Genesys Engage Platform, we can test the solution by communicating with a variety of media. In this example, we will be using voice to demonstrate the mechanism for interaction distribution using Agent Desktop.
+
+
+Agora que entendemos melhor os componentes e a funcionalidade da camada de mídia que habilita toda a plataforma Genesys Engage, podemos testar a solução comunicando-se com uma variedade de mídias. Neste exemplo, usaremos a voz para demonstrar o mecanismo de distribuição de interação usando o Agent Desktop.
+
+![image](https://user-images.githubusercontent.com/52088444/157868346-d18ada13-7ad4-485c-b5d3-783e07f1f0c1.png)
+
+
+-  An Agent Desktop is a way for the agent to interact with the customer.
+- Agent Desktop applications support the Agents interaction with customers.
+
+Genesys developed an Agent Desktop application called Workspace Desktop Edition.
+
+Before we get started with phone calls in this course, we’ll need a way for the agent to interact with the customer.
+
+Customers/Partners can develop their own agent desktop application. 
+
+- Um Agent Desktop é uma forma de o agente interagir com o cliente.
+- Os aplicativos do Agent Desktop suportam a interação dos Agentes com os clientes.
+
+A Genesys desenvolveu um aplicativo Agent Desktop chamado Workspace Desktop Edition.
+
+Antes de começarmos com as chamadas telefônicas neste curso, precisaremos de uma maneira de o agente interagir com o cliente.
+
+Os clientes/parceiros podem desenvolver seu próprio aplicativo de desktop de agente.
+
+**Obs: Usaremos um subconjunto muito pequeno de recursos disponíveis com o Workspace para os propósitos desta classe.
+
+Este não é um curso do Workspace. Para obter mais informações sobre o treinamento do Workspace, entre em contato com a equipe de treinamento da Genesys University.**
+
+**Workspace Desktop Edition**
+
+Workspace Desktop Edition (abbreviated as Workspace in this training) enables you to manage customer interactions from your desktop computer. Depending on your contact center, you may use the workspace to handle inbound calls, outbound calls, emails, or chats. Other team members can be used to assist with the interactions through coaching, conferencing, and transferring.
+
+Edição de área de trabalho para desktop
+
+O Workspace Desktop Edition (abreviado como Workspace neste treinamento) permite que você gerencie as interações com o cliente a partir de seu computador desktop. Dependendo do seu contact center, você pode usar o espaço de trabalho para lidar com chamadas recebidas, chamadas de saída, e-mails ou bate-papos. Outros membros da equipe podem ser usados ​​para ajudar nas interações por meio de coaching, conferência e transferência.
+
+![image](https://user-images.githubusercontent.com/52088444/157868676-70733df6-3e20-48b9-80cf-c93fc8ba981f.png)
+
+## 7.11 Logging into Workspace
+
+A shortcut can be used to launch Workspace. In the initial screen, you must enter login credentials for Username and Password before clicking Log In.
+
+
+Um atalho pode ser usado para iniciar o Workspace. Na tela inicial, você deve inserir as credenciais de login para Nome de usuário e Senha antes de clicar em Login.
+
+![image](https://user-images.githubusercontent.com/52088444/157868787-176550de-26ad-4d92-8a6d-b7b723e88ea4.png)
+
+In the next screen, verify and/or set the name of the Place, Media Type(s) such as voice and email, and optionally Queues. The choices for Media Type and Queue depend on your environment. In addition, you may or may not be able to change your place.
+
+Na próxima tela, verifique e/ou defina o nome do Local, Tipo(s) de Mídia, como voz e e-mail e, opcionalmente, Filas. As opções para Tipo de mídia e Fila dependem de seu ambiente. Além disso, você pode ou não ser capaz de mudar de lugar.
+
+![image](https://user-images.githubusercontent.com/52088444/157868915-6a838830-437e-4c26-96ed-856d87585585.png)
+
+## 7.12 Getting Started with Workspace( Introdução ao Workspace)
+
+Upon logging in to the Workspace, the opening view will look like the following:
+
+Ao fazer login no Workspace, a visualização de abertura terá a seguinte aparência:
+
+![image](https://user-images.githubusercontent.com/52088444/157874222-e09255cf-8faa-4a89-a1bd-f5464ffef1d9.png)
+
+
+Workspace has two main viewing methods: A standard window-based method and a smaller less-obtrusive gadget-based method. The choice to exit is available from the Gadget and the Main Menu.
+
+O Workspace tem dois métodos de visualização principais: um método padrão baseado em janela e um método menor baseado em gadget menos intrusivo. A opção de sair está disponível no Gadget e no Menu Principal
+
+##  7.13 Status Menu
+
+Hover the mouse over your status to see more details such as your status per media type.
+
+Passe o mouse sobre seu status para ver mais detalhes, como seu status por tipo de mídia.
+
+![image](https://user-images.githubusercontent.com/52088444/157874770-d3fa9be5-96c5-4555-89fb-a17d088970e8.png)
+
+You can set your status for all your channels by clicking on the Status menu icon. Notice the Log Off status. This logs you out of agent functionality which means you can no longer process interactions. It does not log you out of Workspace or close Workspace. There is a separate Exit option to logout and close Workspace. 
+
+Você pode definir seu status para todos os seus canais clicando no ícone do menu Status. Observe o status de Logoff. Isso desconecta você da funcionalidade do agente, o que significa que você não pode mais processar interações. Ele não desconecta você do Workspace nem fecha o Workspace. Há uma opção Sair separada para fazer logout e fechar o Workspace.
+
+## 7.14 Handling an Inbound Call(Lidando com uma chamada de entrada)
+
+The following images present how to handle an inbound voice call.
+
+As imagens a seguir apresentam como lidar com uma chamada de voz de entrada.
+
+![image](https://user-images.githubusercontent.com/52088444/157875861-3fb6cd0d-34df-4d97-a7ee-0371242e2599.png)
+
+The workspace window pops open displaying information about the call.
+
+
+A janela da área de trabalho é aberta exibindo informações sobre a chamada.
+
+
+![image](https://user-images.githubusercontent.com/52088444/157876254-5e728f5b-b03c-4362-b850-3f5b29240bcb.png)
+
+Quando terminar sua chamada, clique no botão desligar na parte superior da interface para desconectar a chamada.
+
+![image](https://user-images.githubusercontent.com/52088444/157876599-f94b3e1e-a881-408a-99a3-7e2e33c32c0f.png)
+
+Marque a caixa de seleção para marcar a chamada como concluída e feche a parte da janela que representa a chamada.
+
+##  7.15 Learning Summary
+
+Now that you have completed this chapter, you should be able to do the following: 
+
+1 - Recall major functions of the Media Layer.
+
+2 - Describe major components of the Media Layer.
+
+3 - Describe the T-Server.
+
+4-  Describe the SIP Server.
+
+5 - Describe the Interaction Server. 
+
+6 - Describe attached data.
+
+7 - Describe Computer Telephony Integration (CTI).
+
+8 - Explain the role of Genesys within CTI.
+
+9 - Describe the basic features of Workspace Desktop Edition.
+
+10 - Handle an inbound call.
+
+
+Agora que você concluiu este capítulo, você deve ser capaz de fazer o seguinte:
+
+1 - Recupere as principais funções da Media Layer.
+
+2 - Descreva os principais componentes da camada de mídia.
+
+3 - Descreva o T-Server.
+
+4- Descreva o Servidor SIP.
+
+5 - Descreva o Interaction Server.
+
+6 - Descreva os dados anexados.
+
+7 - Descrever a Integração Computador Telefonia (CTI).
+
+8 - Explicar o papel da Genesys dentro do CTI.
+
+9 - Descreva os recursos básicos do Workspace Desktop Edition.
+
+10 - Atender uma chamada de entrada.
+
