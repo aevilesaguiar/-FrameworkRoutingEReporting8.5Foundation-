@@ -282,3 +282,5 @@ O sistema executa as opções IVR reproduzindo as mensagens correspondentes. O c
 The flow below describes the use case from the perspective of the caller and contact center agent. The following diagram shows the business flow of the use case.
 
 O fluxo abaixo descreve o caso de uso da perspectiva do chamador e do agente do contact center. O diagrama a seguir mostra o fluxo de negócios do caso de uso.
+
+![image](https://user-images.githubusercontent.com/52088444/157916056-a0e84beb-db11-4ee4-9410-a22a0b0e9c5a.png)
