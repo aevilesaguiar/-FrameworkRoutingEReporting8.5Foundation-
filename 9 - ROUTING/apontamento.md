@@ -155,6 +155,8 @@ maneira oportuna.
 
 ![image](https://user-images.githubusercontent.com/52088444/157890643-5a240148-0aa1-42b1-9f42-75cf62ad33b9.png)
 
+![image](https://user-images.githubusercontent.com/52088444/157912162-24a2b761-aad2-44ea-a01c-3c87c5a31d40.png)
+
 This concept is what powers our Genesys Routing Solution and allows for different, complex and powerful routing applications to be built to deliver the right interaction to the right resource at the right time.
 
 Esse conceito é o que impulsiona nossa solução de roteamento Genesys e permite que aplicativos de roteamento diferentes, complexos e poderosos sejam criados para fornecer a interação certa para o recurso certo no momento certo.
