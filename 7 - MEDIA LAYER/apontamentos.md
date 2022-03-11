@@ -55,6 +55,7 @@ Depois de concluir este capítulo, você deve ser capaz de fazer o seguinte:
 
 The Media Layer serves as the center of any Genesys system, receiving and distributing messages as directed by the other components. The Media Layer enables solutions to communicate with a variety of media including traditional telephony systems, voice over IP (VoIP), email, instant messaging, and the Web. This layer also provides the mechanism for attached data distribution within and across solutions.
 
+
 **External Interfaces**
 
 External interfaces are interfaces to communication media such as voice and multimedia devices.
@@ -454,3 +455,65 @@ Agora que você concluiu este capítulo, você deve ser capaz de fazer o seguint
 
 10 - Atender uma chamada de entrada.
 
+## 7.16 Learning check
+
+Question
+01/05
+Which functions apply to the Media Layer? (Select all answers that apply.)
+
+ - Interaction tracking( true)
+ - Alarm processing
+ - Access control
+ - Database connectivity
+ - Log events interface
+ - External interfaces (true)
+ - Dynamic reconfiguration and notification
+ - Fault handling
+ - Compilation of statistics and object status
+ - Attached data distribution(true)
+ - Configuration
+ - Solution control
+
+Question
+02/05
+Media Layer controls user access to solution functions and its data.
+
+True
+
+False (verdadeiro)
+
+Question
+03/05
+Which components in the media layer enable voice for communication (select all that apply)?
+
+Interaction Server 
+
+TServer  (true)
+
+Configuration Server
+
+SIP Server (true)
+
+Question
+04/05
+In addition to the Agent Status menu, where can you change your status from Not Ready to Ready for inbound calls?
+
+Contact Center Statistics
+
+My Channels(correto)
+
+Main Menu
+
+My Statistics
+
+What would you use to log out of all channels and close Workspace?
+
+![image](https://user-images.githubusercontent.com/52088444/157880315-ecfd6ebb-8a99-427e-b220-5ffbd467663e.png)
+
+A
+
+B
+
+C (true)
+
+D
