@@ -60,9 +60,54 @@ As próximas duas imagens mostram um exemplo de alarmes ativos no GA.
 
 ![image](https://user-images.githubusercontent.com/52088444/157986879-7f41b304-3094-4ad7-8afb-592bf7f5c670.png)
 
-![image](https://user-images.githubusercontent.com/52088444/157986946-83e4af82-870b-4667-8fc8-98c8c9e49c07.png)
 
 When there is an active alarm present, you can click the arrow next to the Alarm Condition in the list of alarms and you will see more details about the Alarm Condition.
 
 Quando houver um alarme ativo presente, você pode clicar na seta ao lado da Condição de Alarme na lista de alarmes e verá mais detalhes sobre a Condição de Alarme.
+
+![image](https://user-images.githubusercontent.com/52088444/157986946-83e4af82-870b-4667-8fc8-98c8c9e49c07.png)
+
+
+**Application and Host Status(Status do aplicativo e do host)**
+
+Genesys Administrator’s application view indicates the status of all Applications in the environment. Under the status column, you can see one of the following status:
+
+- Stopped
+- Pending
+- Initializing
+- Service unavailable
+- Started
+- Suspending
+- Suspended
+
+A visualização do aplicativo do Genesys Administrator indica o status de todos os aplicativos no ambiente. Na coluna de status, você pode ver um dos seguintes status:
+
+- Parou
+- Pendente
+- Inicializando
+- Serviço indisponível
+- Iniciado
+- Suspensão
+- Suspenso
+
+![image](https://user-images.githubusercontent.com/52088444/157987301-20ef79d6-7611-4780-a5cb-2a871169619c.png)
+
+Genesys Administrator’s Host view indicates the status of all Hosts in the environment. There are five possible statuses:
+
+-  Up
+-  Down
+-  Unavailable
+-  Unreachable
+-  Unknown
+
+A visualização Host do Genesys Administrator indica o status de todos os Hosts no ambiente. Há cinco status possíveis:
+
+-  Acima
+-  Abaixo
+- Indisponível
+-  Inacessível
+-  Desconhecido
+
+![image](https://user-images.githubusercontent.com/52088444/157987492-74bd1592-e6ed-4a5e-ba3b-194e07e9a837.png)
+
 
