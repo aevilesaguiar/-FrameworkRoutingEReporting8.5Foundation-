@@ -88,7 +88,7 @@ Cross-sale and up-sale opportunities that can be maximized. Customer retention a
 Os benefícios comerciais do Genesys Universal Routing incluem a melhoria da satisfação do cliente com mais resoluções na primeira chamada e menos tempo de espera. Os clientes ficam menos frustrados porque o roteamento inteligente fornece suas informações específicas ao agente que responde à sua interação.
 
 Resultados:
-Oportunidades de venda cruzada(Cross-sale) e up-sale que podem ser maximizadas. A retenção e fidelização de clientes também mostram melhorias quando o cliente tem uma experiência melhor.
+Oportunidades de venda cruzada(Cross-sale) e incentivar o cliente up-sale(Upselling é uma técnica de vendas em que um vendedor convida o cliente a comprar itens, atualizações ou outros complementos mais caros para gerar mais receita.) que podem ser maximizadas. A retenção e fidelização de clientes também mostram melhorias quando o cliente tem uma experiência melhor.
 
 ![image](https://user-images.githubusercontent.com/52088444/157888830-02635de7-b745-4480-a341-0f52d2cc9a4d.png)
 
@@ -161,3 +161,124 @@ This concept is what powers our Genesys Routing Solution and allows for differen
 
 Esse conceito é o que impulsiona nossa solução de roteamento Genesys e permite que aplicativos de roteamento diferentes, complexos e poderosos sejam criados para fornecer a interação certa para o recurso certo no momento certo.
 
+
+##  9.6 Genesy Routing Components
+
+A routing application is a set of decisions and instructions that tells the Genesys Routing Solution how to handle and where to direct interactions under different circumstances. 
+
+Think of a routing application as a structured set of choice-points, each of which analyzes some aspect of the current interaction. The data that a strategy uses to analyze an interaction includes facts related to the interaction itself, the customer initiating the interaction, the state of the contact center, the particular point in time, and so on. 
+
+At any given choice-point, only one of several possible outcomes can be optimal. Routing determines which outcome is optimal and sends the interaction along a specified route accordingly.
+
+Routing includes a set of components that will enables intelligent distribution of interactions throughout the enterprise, those components are the following:
+
+
+Um aplicativo de roteamento é um conjunto de decisões e instruções que informam à Genesys Routing Solution como lidar e para onde direcionar as interações em diferentes circunstâncias.
+
+Pense em um aplicativo de roteamento como um conjunto estruturado de pontos de escolha, cada um dos quais analisa algum aspecto da interação atual. Os dados que uma estratégia usa para analisar uma interação incluem fatos relacionados à própria interação, o cliente que iniciou a interação, o estado do contact center, o momento específico e assim por diante.
+
+Em qualquer ponto de escolha, apenas um dos vários resultados possíveis pode ser ótimo. O roteamento determina qual resultado é ideal e envia a interação ao longo de uma rota especificada de acordo.
+
+O roteamento inclui um conjunto de componentes que permitirá a distribuição inteligente de interações em toda a empresa, esses componentes são os seguintes:
+
+
+**Composer**
+
+Composer is Genesys’ consolidated application development tool that uses the State Chart XML (SCXML) industry standard development language to create routing applications:
+
+O Composer é uma ferramenta consolidada de desenvolvimento de aplicativos da Genesys que usa a linguagem de desenvolvimento padrão do setor State Chart XML (SCXML) para criar aplicativos de roteamento:
+
+- SCXML
+
+   - Open Standard
+   - XML-based markup language
+
+- Stored on a Web Application Server
+
+The following image presents an example of a routing application built in Composer.
+
+
+- SCXML
+
+   - Padrão Aberto
+   - Linguagem de marcação baseada em XML
+
+- Armazenado em um servidor de aplicativos da Web
+
+A imagem a seguir apresenta um exemplo de um aplicativo de roteamento criado no Composer.
+
+
+![image](https://user-images.githubusercontent.com/52088444/157914349-ee8edb25-e011-4adc-a257-8a624efc9485.png)
+
+
+**obs:If you have already used Universal Routing’s Interaction Routing Designer to build routing strategies, you will find similarities with Composer. Composer is an open system that uses a non-proprietary language called SCXML to build routing applications.**
+
+
+**Se você já usou o Interaction Routing Designer do Universal Routing para criar estratégias de roteamento, encontrará semelhanças com o Composer. O Composer é um sistema aberto que usa uma linguagem não proprietária chamada SCXML para construir aplicativos de roteamento.**
+
+**ORS**
+
+
+The routing application is stored as SCXML (open standard). Orchestration Server (ORS) is responsible for executing the (SCXML) code and providing the data needed for more advanced routing flexibility. Some logic gets delegated to URS, whose responsibility is to provide a necessary routing service to the Orchestration Server.
+
+- Store as SCXML (open standard)
+
+- Executed by ORS
+
+- Some logic delegated to URS
+
+
+
+O aplicativo de roteamento é armazenado como SCXML (padrão aberto). O Orchestration Server (ORS) é responsável por executar o código (SCXML) e fornecer os dados necessários para uma flexibilidade de roteamento mais avançada. Alguma lógica é delegada ao URS, cuja responsabilidade é fornecer um serviço de roteamento necessário ao Orchestration Server.
+
+- Armazenar como SCXML (padrão aberto)
+
+- Executado por ORS
+
+- Alguma lógica delegada ao URS
+
+
+
+**URS**
+
+Universal Routing Server (URS) is the routing engine that provides services to the Orchestration Server and selects the target. Universal Routing Server relies on the stat server for status and statistics about targets. It is responsible for verifying whether the targets are ready and available, and selecting a specific member of a targeted group to be sent an interaction.
+
+- URS is a Routing engine that runs strategic target-seeking algorithms for each inbound interaction.
+- It is capable of delivering over 100 calls per second.
+- It is also known as “Router”.
+
+
+
+O Universal Routing Server (URS) é o mecanismo de roteamento que fornece serviços ao Orchestration Server e seleciona o destino. O Universal Routing Server depende do Stat Server(servidor de estatísticas) para status e estatísticas sobre destinos. Ele é responsável por verificar se os alvos estão prontos e disponíveis e selecionar um membro específico de um grupo alvo para receber uma interação.
+
+- URS é um mecanismo de roteamento que executa algoritmos estratégicos de busca de alvos para cada interação de entrada.
+- É capaz de entregar mais de 100 chamadas por segundo.
+- Também é conhecido como “Roteador”.
+
+## 9.7 Routing in Action
+
+ Let's now apply and observe an example of a Routing application and see the Genesys Routing Solution in action.
+
+ 
+Vamos agora aplicar e observar um exemplo de um aplicativo de roteamento e ver a solução de roteamento Genesys em ação.
+
+
+**Genesys Beyond Training Contact Center Scenario(Cenário de Contact Center Genesys Beyond Training)**
+
+A customer wants to contact the Genesys Beyond training company for a specific service and for further information around their product offerings. They have been presented a contact number to call the company on a 1-800 6671, which is a dedicated service for Engage Customers only.
+
+The system performs IVR options playing corresponding messages. The customer selects an option from a menu. Genesys Routing will take these collected digits and map them to a target, which is an agent skill using a Virtual Agent Group (VAG) expression. If no skilled agents are available, the target expands to the overflow which is represented by ACD Queue 6602.
+
+The Agents will then be presented by a screen-pop displaying attach data on their desktops. This shows the department and product data. The customer data will also be included where applicable. (Check diagram in Business flow section.).
+
+
+Um cliente deseja entrar em contato com a empresa de treinamento Genesys Beyond para obter um serviço específico e obter mais informações sobre suas ofertas de produtos. Eles receberam um número de contato para ligar para a empresa no número 1-800 6671, que é um serviço dedicado apenas para clientes do Engage.
+
+O sistema executa as opções IVR reproduzindo as mensagens correspondentes. O cliente seleciona uma opção de um menu. O Genesys Routing pegará esses dígitos coletados e os mapeará para um destino, que é uma habilidade do agente usando uma expressão de Grupo de Agentes Virtuais (VAG). Se nenhum agente qualificado estiver disponível, o destino se expandirá para o estouro que é representado pela ACD Queue 6602.
+
+**Business Flow(Fluxo de negócios)**
+
+
+The flow below describes the use case from the perspective of the caller and contact center agent. The following diagram shows the business flow of the use case.
+
+O fluxo abaixo descreve o caso de uso da perspectiva do chamador e do agente do contact center. O diagrama a seguir mostra o fluxo de negócios do caso de uso.
